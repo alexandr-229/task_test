@@ -1,0 +1,33 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	margin-top: 30px;
+}
+
+.input {
+	margin: 10px 0;
+}
+
+.button {
+	height: 40px;
+	width: 160px;
+	border-radius: 10px;
+	background-color: rgb(64, 64, 221);
+	border: none;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 20px;
+	transition: 100ms;
+}
+
+.button:hover {
+	background-color: rgb(79, 79, 226);
+}
+
+.button:active {
+	background-color: rgb(52, 52, 202);
+}
